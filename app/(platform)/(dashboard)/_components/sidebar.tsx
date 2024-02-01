@@ -27,6 +27,7 @@ export const Sidebar = ({
     organization: activeOrganization,
     isLoaded: isLoadedOrg
   } = useOrganization();
+  
   const { 
     userMemberships,
     isLoaded: isLoadedOrgList
